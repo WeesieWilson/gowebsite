@@ -1,0 +1,85 @@
+
+.hero{
+  background-image: url('hungry.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  background-position-y: 89%;
+  background-attachment: fixed;
+
+}
+
+.navFooter{
+  width: 100%;
+  height: 145px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.nav-footer-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+li{
+  color: #242424;
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  padding-left: 6px;
+}
+
+.logo{
+  background-image: url(peace.png);
+  background-size: 100%;
+  width: 16%;
+  height: 95px;
+  background-repeat: no-repeat;
+
+}
+
+li:hover{
+  color:#6CB451;
+  border-left: #6CB451 4px solid;
+  cursor: pointer;
+}
+
+.logo:hover{
+  background-image: url(green.jpg);
+  background-size: 100%;
+  width: 16%;
+  height: 100px;
+  background-repeat: no-repeat;
+  color:#6CB451;
+  border-left: white 1px solid;
+
+}
+
+.nextSection{
+  background-image: url('farmer.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position-y: 89%;
+  /*background-attachment: fixed;*/
+}
+
+#home{
+  background-image: url('phil.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  /*background-color: blue;*/
+
+}
